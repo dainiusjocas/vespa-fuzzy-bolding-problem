@@ -1,0 +1,15 @@
+schema doc {
+    document doc {
+        field body type string {
+            indexing: index | summary
+            summary: dynamic
+            bolding: true
+            index: enable-bm25
+        }
+
+        field author type string {
+            indexing: attribute | summary
+            attribute: fast-search
+        }
+    }
+}

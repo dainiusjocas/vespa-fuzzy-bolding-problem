@@ -1,0 +1,7 @@
+{
+  "id":"id:doc:doc::demo",
+  "fields": {
+    "author": "Vespa",
+    "body": "Vespa is a fully featured search engine and vector database."
+  }
+}
